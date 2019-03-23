@@ -1,0 +1,47 @@
+<inputCommand>
+	<imports>
+		<import>System</import>
+		<import>UnityEngine</import>
+	</imports>
+	<namespaces>
+		<namespace name="Geekbrains">
+			<types>
+				<type name="InputCommand" type="class">
+					<atributes>
+						<atribute>public</atribute>
+						<atribute>abstract</atribute>
+					</atributes>					
+					<basetypes>
+						<basetype>Object</basetype>
+					</basetypes>
+					<members>						
+						<field>
+							<name>_isEnabledInPause</name>
+							<type>System.Boolean</type>
+							<atributes>
+								<atribute>protected</atribute>									
+							</atributes>
+						</field>
+						<field>
+							<name>_commandType</name>
+							<type>Type</type>
+							<atributes>
+								<atribute>protected</atribute>									
+							</atributes>
+						</field>						
+						<property>
+							<name>CommandType</name>
+							<type>Type</type>
+							<atributes>
+								<atribute>public</atribute>									
+							</atributes>
+							<getexpressions>
+								<expression>_commandType</expression>
+							</getexpressions>
+						</property>												
+					</members>
+				</type>
+			</types>
+		</namespace>
+	</namespaces>
+</inputCommand>
